@@ -1,3 +1,4 @@
+os.getcwd()
 class Rectangle:
     def __init__(self, length, breadth):
         self.length = length
@@ -24,4 +25,4 @@ print("Rectangle perimeter:", rect.perimeter())
 
 para = rectangle.Parallelepiped(5, 10, 15)
 print("Parallelepiped volume:", para.volume())
-os.getcwd()
+
